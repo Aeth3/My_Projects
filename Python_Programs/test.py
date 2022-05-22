@@ -12,5 +12,5 @@ def is_int(text):
         print(fibonacci(text))
     except ValueError:
         print("Please enter an integer!")
-number = 100
-is_int(number)
+def is_int():
+    
