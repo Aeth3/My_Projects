@@ -6,11 +6,10 @@ def fibonacci(sum):
         fibo.append(nextElement)
         i += 1
     return fibo
-def is_int(text):
+def is_int():
     try:
-        int(text) == text
+        text = int(input("Enter an fibonacci sequence:"))
         print(fibonacci(text))
     except ValueError:
         print("Please enter an integer!")
-def is_int():
-    
+is_int()
